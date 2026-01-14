@@ -1,0 +1,12 @@
+ :root {
+    --primary: #064e3b;
+    --secondary-color: #d4af37;
+    --tertiary-color: #f0fdf6;
+    --font-inter: "Inter", sans-serif;
+  }
+  
+ @theme inline {
+      --color-primary: var(--primary );
+      --color-secondary: var(--secondary-color);
+      --font-inter: var(--font-inter)
+  }

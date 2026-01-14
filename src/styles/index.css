@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "./inline.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.5;
+  transition: all 500ms linear;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
