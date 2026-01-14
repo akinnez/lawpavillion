@@ -42,7 +42,7 @@ export function AppLayout({ children }: LayoutProps) {
           {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
         <span className="ml-4 font-semibold text-slate-900 dark:text-white">
-          SaaS Dashboard
+          LawPavillion
         </span>
       </div>
 
@@ -59,7 +59,7 @@ export function AppLayout({ children }: LayoutProps) {
           >
             {sidebarOpen && (
               <span className="font-semibold text-slate-900 dark:text-white">
-                SaaS Dashboard
+                LawPavillion
               </span>
             )}
             <button
